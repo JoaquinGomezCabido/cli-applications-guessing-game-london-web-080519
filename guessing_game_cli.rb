@@ -5,7 +5,7 @@ def run_guessing_game
 
   puts "Guess the number"
 
-  guess = gets.strip
+  guess = gets.chomp
 
   case guess
   when random_number
